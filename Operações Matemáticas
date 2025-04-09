@@ -1,0 +1,25 @@
+#Include "Protheus.ch"
+#Include "Totvs.ch"
+
+/*
+
+FAZER CONTAS
+
+*/
+
+User Function SYSTEM2()
+//Variável de declaração
+Local nNum1 := 10
+Local nNum2 := 20
+
+Local nSub   := nNum1 - nNum2 // Subtração
+Local nMulti := nNum1 * nNum2 // Multiplicação
+Local nDiv   := nNum1 / nNum2 // Divisão
+Local nAdi   := nNum1 + nNum2 // Adição
+
+MsgInfo(CValTochar(nSub),"Subtração")
+MsgInfo(CValTochar(nMulti),"Multiplicação")
+MsgInfo(CValTochar(nDiv),"Divisão")
+MsgInfo(CValTochar(nAdi),"Adição")
+
+return

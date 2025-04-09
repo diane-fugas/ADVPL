@@ -7,7 +7,7 @@ Local n as numeric
 
 n := 10
 
-//Inicio do laço de repetição
+//Inicio do laÃ§o de repetiÃ§Ã£o
 WHILE n >= 1
     Alert(cValTochar(n)) //Mostrar o comando 10 vezes
 

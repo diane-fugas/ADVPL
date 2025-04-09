@@ -4,7 +4,7 @@
 
 /*
 
-CONFERIR DE O nNum1 É MAIOR QUE O nNum2
+CONFERIR DE O nNum1 Ã‰ MAIOR QUE O nNum2
 
 */
 
@@ -16,9 +16,9 @@ Local nNum2 as numeric
 nNum1 := 30
 nNum2 := 10
 
-//ESTRUTURA DE DECISÃO
+//ESTRUTURA DE DECISÃƒO
 IF nNum1 > nNum2
-    MsgInfo(cValTochar(nNum1)+" é maior que "+cValTochar(nNum2),"RESULTADO")
+    MsgInfo(cValTochar(nNum1)+" Ã© maior que "+cValTochar(nNum2),"RESULTADO")
 ENDIF
 
 return

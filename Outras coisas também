@@ -1,0 +1,21 @@
+Conversão de datas:
+
+DTOC [Converter data para Caractere]
+DTOS [Converter data para string]
+STOD [Converter String para Data]
+DATE [Mostra a data atual]
+
+Como selecionar uma tabela:
+dbSelectArea("SB1")
+Como selecionar a ordem:
+dbSetOrder(01)
+
+Variáveis:
+x=variante
+c=texto
+d=data
+n=numerico
+l=logico
+b=bloco de código
+o=objeto
+a=array

@@ -1,0 +1,24 @@
+#Include "Protheus.ch"
+#Include "Totvs.ch"
+
+
+/*
+
+CONFERIR DE O nNum1 É MAIOR QUE O nNum2
+
+*/
+
+User Function SYSTEM3()
+
+Local nNum1 as numeric
+Local nNum2 as numeric
+
+nNum1 := 30
+nNum2 := 10
+
+//ESTRUTURA DE DECISÃO
+IF nNum1 > nNum2
+    MsgInfo(cValTochar(nNum1)+" é maior que "+cValTochar(nNum2),"RESULTADO")
+ENDIF
+
+return

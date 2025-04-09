@@ -1,0 +1,23 @@
+#Include "Protheus.ch"
+#Include "Totvs.ch"
+
+User Function SYSTEM5()
+
+/*
+SE ESTIVER CALOR
+SE ESTIVER SEM CHUVA
+VAI DAR PRAIA
+
+CALOR := .T. true/verdadeiro
+CHUVA := .F. false/falso
+*/
+
+Local lcalor := .T.
+Local lChuva := .T.
+
+IF lCalor == .T. .AND. lChuva == .F.
+    MsgInfo("HOJE EU IREI A PRAIA","RESULTADO")
+ELSE
+    MsgInfo("HOJE NÃO IREI A PRAIA", "RESULTADO")
+ENDIF
+return

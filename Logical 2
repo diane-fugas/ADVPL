@@ -2,7 +2,7 @@
 #Include "Totvs.ch"
 
 /*
-SE EST¡ DE DIA - FAREI UMA CAMINHADA
+SE EST√Å DE DIA - FAREI UMA CAMINHADA
 
 lDia  := .T.
 
@@ -16,7 +16,7 @@ Local lStauts as logical
 /*
 lDia    := .T.
 
-lStauts := !lDia //NOT(TRUE) N√O … VERDADE
+lStauts := !lDia //NOT(TRUE) N√ÉO √â VERDADE
 
 IF lStauts
     MsgInfo("Farei uma caminhada bem legal", "RESULTADO")

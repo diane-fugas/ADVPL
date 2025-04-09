@@ -18,6 +18,6 @@ Local lChuva := .T.
 IF lCalor == .T. .AND. lChuva == .F.
     MsgInfo("HOJE EU IREI A PRAIA","RESULTADO")
 ELSE
-    MsgInfo("HOJE N√O IREI A PRAIA", "RESULTADO")
+    MsgInfo("HOJE N√ÉO IREI A PRAIA", "RESULTADO")
 ENDIF
 return

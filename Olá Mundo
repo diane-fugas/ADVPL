@@ -1,0 +1,5 @@
+User Function SYSTEM1()
+
+    MsgInfo("Olá Mundo!","Saudações")
+    
+return
